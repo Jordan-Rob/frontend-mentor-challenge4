@@ -18,8 +18,10 @@ body{
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    margin-top: 120px;
-    margin-left: 220px;
+    margin-top: 80px;
+    margin-bottom: 140px;
+
+    margin-left: 280px;
     border: none;
     border-radius: 20px;
 }
@@ -52,23 +54,46 @@ body{
 
 .card .right{
     margin-top: 50px;
-    width: 50%;
+    width: 45%;
+}
+
+.info{
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    width: 90%;
+    padding: 4px 0 4px 0;
 }
 
 .info .title{
-    display: flex;
-    flex-direction: row;
 }
 
-.info .title p{
-    width: 80%;
+ .title a{
+    cursor: pointer;
 }
 
-.info .title a{
-    width: 20%;
-    margin-top: 15px;
+.title a:hover{
+    color: hsl(14, 88%, 65%)
 }
 
-.info .sub{
+#uno{
+    margin-left: 80px;
+}
+
+#dos{
+    margin-left: 80px;
+}
+
+#tres{
+    margin-left: 132px;
+}
+
+#quatro{
+    margin-left: 131px;
+}
+
+#cinco{
+    margin-left: 100px;
+}
+
+#sub{
     display: none;
 }

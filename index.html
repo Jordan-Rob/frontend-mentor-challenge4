@@ -26,40 +26,35 @@
       <h1>FAQ</h1>
       <div class="info">
         <div class="title">
-          <p>How many team members can I invite?</p>
-          <a><img src="./images/icon-arrow-down.svg" alt=""></a>
+          <a onclick="myFunction();"><p>How many team members can I invite? <img id='uno' src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
-        <p class="sub">You can invite up to 2 additional users on the Free plan. There is no limit on 
+        <p id="sub"  >You can invite up to 2 additional users on the Free plan. There is no limit on 
           team members for the Premium plan.</p>
       </div>
       <div class="info">
         <div class="title">
-          <p>What is the maximum file upload size?</p>
-          <a><img src="./images/icon-arrow-down.svg" alt=""></a>
+          <a onclick="myFunction();"><p>What is the maximum file upload size? <img id="dos" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
-        <p class="sub">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        <p id="sub1"  >No more than 2GB. All files in your account must fit your allotted storage space.</p>
       </div>
       <div class="info">
         <div class="title">
-          <p>How do I reset my password?</p>
-          <a><img src="./images/icon-arrow-down.svg" alt=""></a>
+          <a onclick="myFunction();"><p>How do I reset my password? <img id="tres" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
-        <p class="sub">Click “Forgot password” from the login page or “Change password” from your profile page.
+        <p id="sub2"  >Click “Forgot password” from the login page or “Change password” from your profile page.
           A reset link will be emailed to you.</p>
       </div>
       <div class="info">
         <div class="title">
-          <p>Can I cancel my subscription?</p>
-          <a><img src="./images/icon-arrow-down.svg" alt=""></a>
+          <a onclick="myFunction();"><p>Can I cancel my subscription? <img id="quatro" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
-        <p class="sub">Yes! Send us a message and we’ll process your request no questions asked.</p>
+        <p id="sub3"  >Yes! Send us a message and we’ll process your request no questions asked.</p>
       </div>
       <div class="info">
         <div class="title">
-          <p>Do you provide additional support?</p>
-          <a><img src="./images/icon-arrow-down.svg" alt=""></a>
+          <a onclick="myFunction();"><p>Do you provide additional support? <img id="cinco" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
-        <p class="sub">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        <p id="sub4"  >Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
       </div>
     </div>
   </div>
@@ -69,5 +64,16 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("sub");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
