@@ -8,4 +8,67 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif ;
+    font-size: 12px;
+}
+
+.card{
+    width: 60%;
+    height: 68%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-left: 220px;
+    border: none;
+    border-radius: 20px;
+}
+
+.card .left{
+    width: 50%;
+    background-image: url("./images/bg-pattern-desktop.svg");
+    background-size: 690px;
+    background-repeat: no-repeat;
+    background-position: left -315px top -200px;
+}
+
+.card .left #one{
+    height: 300px;
+    margin-top: 40px;
+    margin-left: -50px;
+    overflow: hidden;
+}
+
+.card .left #two{
+    position: relative;
+    top: -30px;
+    margin-left: -430px;
+    height: 170px;
+    z-index: 10;
+}
+
+
+
+
+.card .right{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.info .title{
+    display: flex;
+    flex-direction: row;
+}
+
+.info .title p{
+    width: 80%;
+}
+
+.info .title a{
+    width: 20%;
+    margin-top: 15px;
+}
+
+.info .sub{
+    display: none;
 }
