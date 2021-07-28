@@ -26,33 +26,33 @@
       <h1>FAQ</h1>
       <div class="info">
         <div class="title">
-          <a onclick="myFunction();"><p>How many team members can I invite? <img id='uno' src="./images/icon-arrow-down.svg" alt=""></p></a>
+          <a onclick="myFunction();"><p id="t">How many team members can I invite? <img id='uno' src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
         <p id="sub"  >You can invite up to 2 additional users on the Free plan. There is no limit on 
           team members for the Premium plan.</p>
       </div>
       <div class="info">
         <div class="title">
-          <a onclick="myFunction1();"><p>What is the maximum file upload size? <img id="dos" src="./images/icon-arrow-down.svg" alt=""></p></a>
+          <a onclick="myFunction1();"><p id="t1">What is the maximum file upload size? <img id="dos" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
         <p id="sub1"  >No more than 2GB. All files in your account must fit your allotted storage space.</p>
       </div>
       <div class="info">
         <div class="title">
-          <a onclick="myFunction2();"><p>How do I reset my password? <img id="tres" src="./images/icon-arrow-down.svg" alt=""></p></a>
+          <a onclick="myFunction2();"><p id="t2">How do I reset my password? <img id="tres" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
         <p id="sub2"  >Click “Forgot password” from the login page or “Change password” from your profile page.
           A reset link will be emailed to you.</p>
       </div>
       <div class="info">
         <div class="title">
-          <a onclick="myFunction3();"><p>Can I cancel my subscription? <img id="quatro" src="./images/icon-arrow-down.svg" alt=""></p></a>
+          <a onclick="myFunction3();"><p id="t3">Can I cancel my subscription? <img id="quatro" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
         <p id="sub3"  >Yes! Send us a message and we’ll process your request no questions asked.</p>
       </div>
       <div class="info">
         <div class="title">
-          <a onclick="myFunction4();"><p>Do you provide additional support? <img id="cinco" src="./images/icon-arrow-down.svg" alt=""></p></a>
+          <a onclick="myFunction4();"><p id="t4">Do you provide additional support? <img id="cinco" src="./images/icon-arrow-down.svg" alt=""></p></a>
         </div>
         <p id="sub4"  >Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
       </div>
@@ -67,44 +67,66 @@
 
   <script>
     function myFunction() {
+      const title = document.getElementById('t')
       
       var x = document.getElementById("sub");
       if (x.style.display === "none") {
         x.style.display = "block";
+        title.style.fontWeight = 700
       } else {
         x.style.display = "none";
+        title.style.fontWeight = 400
       }
     }
+
     function myFunction1() {
+      const title = document.getElementById('t1')
+
       var x = document.getElementById("sub1");
       if (x.style.display === "none") {
         x.style.display = "block";
+        title.style.fontWeight = 700
       } else {
         x.style.display = "none";
+        title.style.fontWeight = 400
       }
     }
+
     function myFunction2() {
+      const title = document.getElementById('t2')
+
       var x = document.getElementById("sub2");
       if (x.style.display === "none") {
         x.style.display = "block";
+        title.style.fontWeight = 700
       } else {
         x.style.display = "none";
+        title.style.fontWeight = 400
       }
     }
+
     function myFunction3() {
+      const title = document.getElementById('t3')
+
       var x = document.getElementById("sub3");
       if (x.style.display === "none") {
         x.style.display = "block";
+        title.style.fontWeight = 700
       } else {
         x.style.display = "none";
+        title.style.fontWeight = 400
       }
     }
     function myFunction4() {
+      const title = document.getElementById('t4')
+
       var x = document.getElementById("sub4");
       if (x.style.display === "none") {
         x.style.display = "block";
+        title.style.fontWeight = 700
       } else {
         x.style.display = "none";
+        title.style.fontWeight = 400
       }
     }
   </script>
