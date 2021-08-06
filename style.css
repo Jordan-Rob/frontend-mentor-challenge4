@@ -110,6 +110,9 @@
 }
 
 
+
+
+
 @media (max-width:380px) {
     
     body{
@@ -125,19 +128,42 @@
     }
 
     .card{
-        width: 90%;
-        height: 68%;
+        width: 95%;
+        height: 78%;
         background-color: #fff;
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
+        margin-top: 150px;
         margin-bottom: 20px;
     
-        margin-left: 10px;
+        margin-left: 5px;
         border: none;
         border-radius: 20px;
+    }
+
+    .card .left{
+        width: 100%;
+        height: 20%;
+        background-image: url("./images/bg-pattern-desktop.svg");
+        background-size: 290px;
+        background-repeat: no-repeat;
+        background-position: left 35px top -160px;
+    }
+
+    .card .left #one{
+        height: 205px;
+        margin-top: -122px !important;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+    
+    .card .left #two{
+        position: relative;
+        top: -128px;
+        margin-left: 35px;
+        height: 112px;
+        z-index: 10;
     }
     
 
 }
-
