@@ -55,7 +55,7 @@
     
     
     .card .right{
-        margin-top: 55px;
+        margin-top: 55px !important;
         width: 45%;
         margin-left: 20px;
     }
@@ -63,7 +63,7 @@
     .right h1{
         font-weight: 700;
         font-size: 28px;
-        margin-bottom: 35px;
+        margin-bottom: 35px !important;
     }
     
     .info{
