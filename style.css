@@ -55,7 +55,7 @@
     
     
     .card .right{
-        margin-top: 50px;
+        margin-top: 30px;
         width: 45%;
         margin-left: 20px;
     }
@@ -66,39 +66,30 @@
     }
     
     .info{
+        margin-top: -5px;
         border-bottom: 1px solid hsl(240, 5%, 91%);
         width: 90%;
         padding: 4px 0 4px 0;
+        
     }
-    
     
      .title a{
         cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .title a img{
+        height: 8px;
+        margin-top: 14px;
     }
     
     .title a:hover{
         color: hsl(14, 88%, 65%)
     }
     
-    #uno{
-        margin-left: 80px;
-    }
     
-    #dos{
-        margin-left: 82px;
-    }
-    
-    #tres{
-        margin-left: 129px;
-    }
-    
-    #quatro{
-        margin-left: 127px;
-    }
-    
-    #cinco{
-        margin-left: 102px;
-    }
     
     #sub, #sub1, #sub2, #sub3, #sub4{
         display: none;
@@ -174,29 +165,16 @@
        margin-left: 120px;
     }
 
-    #uno{
-        margin-left: 50px;
-    }
-    
-    #dos{
-        margin-left: 52px;
-    }
-    
-    #tres{
-        margin-left: 104px;
-    }
-    
-    #quatro{
-        margin-left: 102px;
-    }
-    
-    #cinco{
-        margin-left: 69px;
+    .title a{
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    #title{
-        line-height: 26px;
-        font-size: 20px;
+    .title a img{
+        height: 8px;
+        margin-top: 14px;
     }
 
 }
